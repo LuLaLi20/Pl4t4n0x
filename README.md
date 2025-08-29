@@ -1,2 +1,2 @@
 # Pl4t4n0x
-Prueba de una web
+La web de Pl4t4n0x.
