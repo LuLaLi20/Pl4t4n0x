@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pl4t4n0x - El Rey del Banano</title>
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Iconos (Font Awesome) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Fuentes de Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Encabezado -->
+    <header>
+        <nav>
+            <a href="#" class="logo">
+                <i class="fas fa-gamepad"></i> Pl4t4n0x
+            </a>
+            <ul class="nav-links">
+                <li><a href="#sobre-mi">Perfil</a></li>
+                <li><a href="#videos">Contenido</a></li>
+                <li><a href="#setup">Mi Setup</a></li>
+                <li><a href="#redes">Comunidad</a></li>
+            </ul>
+            <div class="menu-toggle"><i class="fas fa-bars"></i></div>
+        </nav>
+    </header>
+
+    <!-- Sección Hero (Portada) -->
+    <main>
+        <section class="hero">
+            <div class="hero-content fade-in">
+                <!-- Imagen de la Skin (Render 3D) -->
+                <div class="avatar-container floating">
+                    <img src="https://st.depositphotos.com/1000975/3029/i/450/depositphotos_30294975-stock-photo-banana-character.jpg" alt="Pl4t4n0x Avatar" class="avatar-img">
+                    <!-- NOTA: Si tienes tu propia skin, cambia el link de arriba -->
+                </div>
+                <h1 class="neon-title">Pl4t4n0x</h1>
+                <p class="subtitle">MINECRAFT | TUTORIALES | PVP</p>
+                <div class="stats-bar">
+                    <div class="stat">
+                        <span class="count">+10K</span>
+                        <span class="label">Subs</span>
+                    </div>
+                    <div class="stat">
+                        <span class="count">+1M</span>
+                        <span class="label">Views</span>
+                    </div>
+                </div>
+                <a href="https://www.youtube.com/@MecixcraftMineGM" target="_blank" class="cta-button pulse">
+                    <i class="fab fa-youtube"></i> VER CANAL
+                </a>
+            </div>
+        </section>
+
+        <!-- Sección Sobre Mí -->
+        <section id="sobre-mi" class="content-section fade-in">
+            <div class="about-grid">
+                <div class="about-text">
+                    <h2>¿QUIÉN ES PL4T4N0X?</h2>
+                    <p>
+                        ¡Qué pasa gente! Soy <strong>Pl4t4n0x</strong>. Bienvenidos a mi rincón de internet. Aquí la regla número uno es divertirse. 
+                    </p>
+                    <p>
+                        Me dedico a crear contenido de <strong>Minecraft</strong>: desde granjas técnicas ultra eficientes hasta batallas de construcción épicas contra Mecix. Si buscas reírte un rato y aprender trucos del juego, estás en el lugar correcto. :V
+                    </p>
+                </div>
+                <div class="about-image">
+                    <!-- Imagen decorativa tipo render -->
+                    <img src="https://wallpapers.com/images/hd/cool-minecraft-background-1920-x-1080-1k3182k4y32k4j1k.jpg" alt="Minecraft Landscape">
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Videos -->
+        <section id="videos" class="content-section fade-in">
+            <h2>VIDEOS DESTACADOS</h2>
+            <div class="video-grid">
+        
+                <!-- Video 1: Granja de Patatas -->
+                <div class="video-card">
+                    <div class="video-responsive">
+                        <!-- IMPORTANTE: Cambia el ID del final de la URL (ej: dQw4w9WgXcQ) por el de TUS videos -->
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ?si=placeholder" title="Tutorial Granja" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-info">
+                        <h3>🥔 LA MEJOR GRANJA DE PATATAS</h3>
+                        <p>Tutorial fácil y rápido para survival.</p>
+                    </div>
+                </div>
+
+                <!-- Video 2: Batalla de Construcción -->
+                <div class="video-card">
+                    <div class="video-responsive">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/M7lc1UVf-VE?si=placeholder" title="Batalla Construccion" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-info">
+                        <h3>⚔️ BATALLA DE CONSTRUCCIÓN VS MECIX</h3>
+                        <p>¿Quién ganará el diamante?</p>
+                    </div>
+                </div>
+
+                <!-- Video 3: Golem de Cobre -->
+                <div class="video-card">
+                    <div class="video-responsive">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/9PZD9vKq4sg?si=placeholder" title="Noticias Minecraft" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-info">
+                        <h3>🤖 TODO SOBRE EL GOLEM DE COBRE</h3>
+                        <p>Fecha de salida y curiosidades.</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Sección Mi Setup (NUEVO) -->
+        <section id="setup" class="content-section fade-in">
+            <h2>MI SETUP GAMER</h2>
+            <div class="setup-container">
+                <ul class="setup-list">
+                    <li><i class="fas fa-microchip"></i> <strong>CPU:</strong> Intel Core i9</li>
+                    <li><i class="fas fa-memory"></i> <strong>RAM:</strong> 32GB HyperX</li>
+                    <li><i class="fas fa-video"></i> <strong>GPU:</strong> NVIDIA RTX 3080</li>
+                    <li><i class="fas fa-mouse"></i> <strong>Mouse:</strong> Logitech G Pro</li>
+                    <li><i class="fas fa-keyboard"></i> <strong>Teclado:</strong> Mecánico Custom</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Sección de Redes Sociales -->
+        <section id="redes" class="content-section fade-in">
+            <h2>ÚNETE A LA LEGIÓN</h2>
+            <p>No te pierdas los directos y noticias.</p>
+            <div class="social-links">
+                <a href="https://www.youtube.com/@MecixcraftMineGM" class="social-btn youtube" target="_blank"><i class="fab fa-youtube"></i> YouTube</a>
+                <a href="#" class="social-btn twitter" target="_blank"><i class="fab fa-twitter"></i> Twitter</a>
+                <a href="#" class="social-btn instagram" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+                <a href="#" class="social-btn discord" target="_blank"><i class="fab fa-discord"></i> Discord</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2024 Pl4t4n0x. Creado con cubos y código.</p>
+    </footer>
+
+    <!-- Script -->
+    <script src="script.js"></script>
+
+</body>
+</html>
